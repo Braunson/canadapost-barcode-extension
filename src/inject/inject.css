@@ -1,0 +1,9 @@
+svg#chrome-gs-barcode {
+    margin-bottom: 20px !important;
+}
+.chrome-gs-barcode-header {
+    margin-bottom: 10px !important;
+    font-size: 1.75rem !important;
+    line-height: 2.25rem !important;
+    letter-spacing: 0.3px !important;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Canada Post - Add Tracking Barcode",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Adds a barcode to scan on your Canada Post mobile app when viewing the tracking page on the web.",
+  "homepage_url": "https://geekybeaver.ca/?ref=capost-barcode",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "permissions": [
+    "https://www.canadapost.ca/trackweb/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.canadapost.ca/trackweb/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.canadapost.ca/trackweb/*"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "js/JsBarcode.code128.min.js",
+        "js/jquery/jquery.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
