@@ -1,6 +1,6 @@
 # Canada Post Barcode Extension
 
-The extension generates and adds a barcode to the tracking page for easy adding the tracking number to the mobile phone. 
+The extension generates and adds a barcode to the tracking page for easy adding the tracking number to the mobile phone.
 
 
 Download
@@ -20,4 +20,11 @@ License
 -------
 
 The Canada Post Barcode Extension is free software released under the MIT License.
-See [LICENSE](https://github.com/Braunson/canadapost-barcode-extension/blob/master/LICENSE) for details. 
+See [LICENSE](https://github.com/Braunson/canadapost-barcode-extension/blob/master/LICENSE) for details.
+
+
+Changelog
+---------
+
+1.1.0 - CanadaPost has changed the URL returning the tracking information, updated match regex.
+1.0.0 - Released extension

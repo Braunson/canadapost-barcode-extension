@@ -21,5 +21,5 @@ function addBarcode()
 				JsBarcode("#chrome-gs-barcode", number, { displayValue: false });
 			}
 		}
-	}	
+	}
 }
