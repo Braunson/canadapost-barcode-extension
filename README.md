@@ -26,6 +26,6 @@ See [LICENSE](https://github.com/Braunson/canadapost-barcode-extension/blob/mast
 Changelog
 ---------
 
-1.2.0 - CanadaPost has root domains from `canadapost.ca` -> `canadapost-postescanada.ca` (Thanks Edwin for pointing this out)
+1.2.0 - CanadaPost has root domains from `canadapost.ca` -> `canadapost-postescanada.ca` (Thanks Erwin for pointing this out)
 1.1.0 - CanadaPost has changed the URL returning the tracking information, updated match regex.
 1.0.0 - Released extension
