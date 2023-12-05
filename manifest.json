@@ -1,7 +1,7 @@
 {
   "name": "Canada Post - Add Tracking Barcode",
-  "version": "1.2.0",
-  "manifest_version": 2,
+  "version": "1.2.1",
+  "manifest_version": 3,
   "default_locale": "en",
   "author": "Braunson Yager",
   "description": "Adds a barcode to scan on your Canada Post mobile app when viewing the tracking page on the web.",
@@ -11,7 +11,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": [
+  "host_permissions": [
     "*://*.canadapost.ca/track-reperage/*",
     "*://*.canadapost.ca/trackweb/*",
     "*://*.canadapost-postescanada.ca/track-reperage/*",
